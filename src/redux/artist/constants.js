@@ -1,0 +1,6 @@
+export const LIST_ARTIST = "LIST_ARTIST";
+export const LIST_GENRE = "LIST_GENRE";
+export const LIST_ALBUMS_BY_ARTIST = "LIST_ALBUMS_BY_ARTIST";
+export const LIST_SONGS_BY_ALBUM = "LIST_SONGS_BY_ALBUM";
+export const RANDOM_SONG = "RANDOM_SONG";
+
