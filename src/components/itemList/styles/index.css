@@ -1,0 +1,17 @@
+.container{
+	padding: 0 80px;
+}
+
+.color-line{
+	padding-bottom: 6px;
+  color: white;
+	border-bottom: 2px solid #293e35;
+	padding-top: 10px;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+
+.color-line:hover {
+	color: #1e2823;
+	transition: color 0.1s ease-out;
+}
