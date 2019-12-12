@@ -1,5 +1,12 @@
-import {  LIST_ARTIST, LIST_GENRE, LIST_ALBUMS_BY_ARTIST, LIST_SONGS_BY_ALBUM, RANDOM_SONG } from "./constants";
-
+import {
+  LIST_ARTIST,
+  LIST_GENRE,
+  LIST_ALBUMS_BY_ARTIST,
+  LIST_SONGS_BY_ALBUM,
+  RANDOM_SONG,
+  RESET_SONGS_BY_ALMBUM_LIST,
+  RESET_SONG_RANDOM
+} from "./constants";
 
 export const artistListAction = artisList => ({
   type: LIST_ARTIST,
@@ -26,3 +33,10 @@ export const ramdonSongAction = randomSong => ({
   randomSong
 });
 
+export const resetSongsByAlbumListAction = () => ({
+  type: RESET_SONGS_BY_ALMBUM_LIST
+});
+
+export const resetSongsRandomAction = () => ({
+  type: RESET_SONG_RANDOM
+});

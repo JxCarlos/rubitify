@@ -14,7 +14,7 @@ const ItemList = ({ data, history, action, style }) => {
     history.push(`/albums/${id}/songs`);
   }
 
-  const _class = `prueba ${style}`;
+  const _class = `description-text ${style}`;
 
   return (
     <Container>
